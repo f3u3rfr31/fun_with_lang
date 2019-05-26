@@ -1,0 +1,81 @@
+#telephone.py
+#Paul Fischer
+#4/20/2017
+#Professor Jackie Horton
+def main():
+   
+    try:
+
+        phone = input(str("Enter the letter:"))
+        print(phone)
+
+        
+        summation = 0
+
+        
+        for ch in phone:
+            if ch == 'a':
+                summation += 1
+            elif ch == 'b':
+                summation += 2
+            elif ch == 'c':
+                summation += 3
+            elif ch == 'd':
+                summation += 4
+            elif ch == 'e':
+                summation += 5
+            elif ch == 'f':
+                summation += 6
+            elif ch == 'g':
+                summation += 7
+            elif ch == 'h':
+                summation += 8
+            elif ch == 'i':
+                summation += 9
+            elif ch == 'j':
+                summation += 10
+            elif ch == 'k':
+                summation += 11
+            elif ch == 'l':
+                summation += 12
+            elif ch == 'm':
+                summation += 13
+            elif ch == 'n':
+                summation += 14
+            elif ch == 'o':
+                summation += 15
+            elif ch == 'p':
+                summation += 16
+            elif ch == 'q':
+                summation += 17
+            elif ch == 'r':
+                summation += 18
+            elif ch == 's':
+                summation += 19
+            elif ch == 't':
+                summation += 20
+            elif ch == 'u':
+                summation += 21
+            elif ch == 'v':
+                summation += 22
+            elif ch == 'w':
+                summation += 23
+            elif ch == 'x':
+                summation += 24
+            elif ch == 'y':
+                summation += 25
+            elif ch == 'z':
+                summation += 26
+            
+        print(summation)
+        summation = 0
+      
+        for num in phone:
+            summation += int (num)
+
+        print (phone)
+        print (summation)
+    except:
+        print('An error occurred. Call again.')
+
+main()
